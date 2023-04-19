@@ -1,3 +1,3 @@
-let bigBomba = []
-bigBomba.push(3)
-console.log(bigBomba)
+const bigBomba = [];
+bigBomba.push(3);
+console.log(bigBomba);
