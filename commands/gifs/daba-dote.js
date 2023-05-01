@@ -2,8 +2,8 @@ const { SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
 	data: new SlashCommandBuilder()
-		.setName('sayatoast')
-		.setDescription('Gif of Saya toasting'),
+		.setName('dabadote')
+		.setDescription('Gif of Daba doting'),
 	async execute(interaction) {
 		return interaction.reply('');
 	},
