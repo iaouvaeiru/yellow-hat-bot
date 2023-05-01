@@ -5,6 +5,6 @@ module.exports = {
 		.setName('sayatoast')
 		.setDescription('Gif of Saya toasting'),
 	async execute(interaction) {
-		return interaction.reply('');
+		return interaction.reply('a');
 	},
 };

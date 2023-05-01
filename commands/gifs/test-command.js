@@ -5,6 +5,7 @@ module.exports = {
 		.setName('blahblah')
 		.setDescription('oopsie'),
 	async execute(interaction) {
-		return interaction.reply('this is funny');
+        const array = [1,2,3,4,5,6]
+		return interaction.reply((array[Math.floor(Math.random() * array.length)]).toString())
 	},
 };
