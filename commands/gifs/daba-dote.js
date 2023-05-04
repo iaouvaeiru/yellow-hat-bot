@@ -5,6 +5,6 @@ module.exports = {
 		.setName('dabadote')
 		.setDescription('Gif of Daba doting'),
 	async execute(interaction) {
-		return interaction.reply('');
+		return interaction.reply('dote');
 	},
 };

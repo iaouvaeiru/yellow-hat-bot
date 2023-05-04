@@ -5,6 +5,7 @@ module.exports = {
 		.setName('randomlaugh')
 		.setDescription('Gif of a random FC member laughing'),
 	async execute(interaction) {
-		return interaction.reply('');
+		const laughArray = [1,2,3,4,5,6]
+		return interaction.reply((laughArray[Math.floor(Math.random() * array.length)]).toString())
 	},
 };
